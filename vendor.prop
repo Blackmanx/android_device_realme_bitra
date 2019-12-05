@@ -6,3 +6,6 @@ persist.vendor.fp.template_updateflag=V1
 
 # USB
 vendor.usb.product_string=realme GT Neo2 5G
+
+# Verity
+ro.apk_verity.mode=2
