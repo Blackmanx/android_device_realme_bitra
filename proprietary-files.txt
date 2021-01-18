@@ -188,19 +188,5 @@ odm/firmware/tp/21619/FW_S3908_SAMSUNG.img
 odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img
 odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img
 
-# Vibrator firmware
-odm/firmware/aw8697_realme_gt_RTP_170_165Hz.bin
-odm/firmware/aw8697_realme_gt_RTP_170_170Hz.bin
-odm/firmware/aw8697_realme_gt_RTP_170_175Hz.bin
-odm/firmware/aw8697_realme_its_realme_RTP_161_165Hz.bin
-odm/firmware/aw8697_realme_its_realme_RTP_161_170Hz.bin
-odm/firmware/aw8697_realme_its_realme_RTP_161_175Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_165Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_170Hz.bin
-odm/firmware/aw8697_realme_jingle_RTP_163_175Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_165Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_170Hz.bin
-odm/firmware/aw8697_realme_tune_RTP_162_175Hz.bin
-
 # Wifi
 odm/etc/wifi/bdwlan.elf
