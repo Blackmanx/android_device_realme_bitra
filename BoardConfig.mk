@@ -22,9 +22,6 @@ DEVICE_PATH := device/realme/bitra
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,bitra
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
