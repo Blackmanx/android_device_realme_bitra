@@ -105,6 +105,13 @@ vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 
+# Display eye protection data
+odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
+
 # Fingerprint firmware
 odm/vendor/firmware/ancap64.b00
 odm/vendor/firmware/ancap64.b01
