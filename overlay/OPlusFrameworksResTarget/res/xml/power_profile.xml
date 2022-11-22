@@ -53,7 +53,7 @@
   <item name="camera.flashlight">128</item> <!-- Avg. power for camera flash, ~160mA -->
   <item name="camera.avg">532</item> <!-- Avg. power use of camera in standard usecases, ~550mA -->
   <item name="gps.on">75</item> <!-- ~50mA -->
-  
+
   <item name="dsp.audio">16</item> <!-- new add ~10mA -->
   <item name="dsp.video">41</item> <!-- new add ~50mA -->
   <item name="bluetooth.controller.idle">1.7</item>  <!--new add -->
@@ -96,7 +96,7 @@
   <array name="cpu.clusters.cores">
       <value>4</value> <!-- cluster 0 has cpu0, cpu1, cpu2, cpu3 -->
       <value>3</value> <!-- cluster 1 has cpu4, cpu5, cpu6 -->
-      <value>1</value> <!-- cluster 2 has cpu7 -->
+      <value>1</value> <!-- cluster 1 has cpu7 -->
   </array>
 
     <!-- Different CPU speeds for cluster 0 as reported in
