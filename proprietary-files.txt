@@ -15,16 +15,10 @@ odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
 
-# Audio
-odm/lib/libaudioEngineerTest.so
+# Audio libraries
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
 vendor/lib/hw/audio.primary.kona.so
-vendor/lib/liba2dpoffload.so
-vendor/lib/libextcamera_client.so
-vendor/lib/libgui1_vendor.so
-vendor/lib/libssrec.so
-vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
@@ -149,13 +143,13 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
+# Listen
+vendor/lib/hw/sound_trigger.primary.kona.so
+
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_2169B:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_2169B:vendor/etc/libnfc-nci.conf
 odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
-
-# Perf
-vendor/lib/vendor.oplus.hardware.performance@1.0.so
 
 # Sensors
 odm/etc/sensor/config/kona_qrd_bmi26x_0.json
