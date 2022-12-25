@@ -183,6 +183,10 @@
         <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="23"/>
         <device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="46"/>
         <!--#Jianfeng.Qiu@PSW.MM.AudioDriver.HAL, 2017/09/22, Add for oppo config end-->
+        <!--#ifdef OPLUS_ARCH_EXTENDS-->
+        <!--Zhaoan.Xu@MULTIMEDIA.AUDIODRIVER.HEADSETDET.2472965, 2021/12/17, add for support BT hearing-aid feature-->
+        <device name="SND_DEVICE_IN_VOICE_HEARING_AID" acdb_id="43"/>
+        <!--#endif OPLUS_ARCH_EXTENDS-->
         <!--Jianfeng.Qiu@PSW.MM.AudioDriver.feature.1234017, 2017/04/05, Add for ktv loopback-->
         <device name="SND_DEVICE_IN_HEADSET_MIC_KTV" acdb_id="98"/>
         <device name="SND_DEVICE_IN_USB_HEADSET_MIC_KTV" acdb_id="98"/>
