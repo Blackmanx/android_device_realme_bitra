@@ -637,6 +637,15 @@ system_ext/lib64/liboplusheifwriter.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-external-impl.so
+vendor/lib/camera.device@3.4-impl.so
+vendor/lib/camera.device@3.5-external-impl.so
+vendor/lib/camera.device@3.5-impl.so
+vendor/lib/camera.device@3.6-external-impl.so
+vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
