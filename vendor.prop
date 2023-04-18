@@ -4,9 +4,5 @@ bluetooth.device.default_name=realme GT Neo2 5G
 # Fingerprint
 persist.vendor.fp.template_updateflag=V1
 
-# Graphics
-ro.surface_flinger.set_idle_timer_ms=4000
-ro.surface_flinger.set_touch_timer_ms=4000
-
 # USB
 vendor.usb.product_string=realme GT Neo2 5G
