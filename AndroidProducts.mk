@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_bitra.mk
+    $(LOCAL_DIR)/yaap_bitra.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_bitra-user \
-    cherish_bitra-userdebug \
-    cherish_bitra-eng
+    yaap_bitra-user \
+    yaap_bitra-userdebug \
+    yaap_bitra-eng
