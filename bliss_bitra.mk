@@ -24,11 +24,12 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Enable extra UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
 
-# Enable quick tap
-TARGET_SUPPORTS_QUICK_TAP := true
+# Enable Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
