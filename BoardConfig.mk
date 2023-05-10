@@ -19,7 +19,7 @@ include device/realme/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/bitra
 
-# Assert
+# OTA Assert
 TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,bitra
 
 # HIDL
