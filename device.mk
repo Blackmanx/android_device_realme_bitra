@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
+    OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
 # Soong namespaces
