@@ -83,8 +83,6 @@ odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
 odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
 
 # Display calibration data
-vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml
-vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 
