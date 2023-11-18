@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common bliss stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Enable extra UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
@@ -33,8 +33,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+ARROW_GAPPS := true
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := bliss_bitra
+PRODUCT_NAME := arrow_bitra
 PRODUCT_DEVICE := bitra
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3370
