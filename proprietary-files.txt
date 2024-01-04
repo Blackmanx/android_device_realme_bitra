@@ -16,6 +16,7 @@ odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
 
 # Audio libraries
+odm/lib/libstdc++.so
 vendor/lib/hw/audio.primary.kona.so
 
 # Audio firmware
