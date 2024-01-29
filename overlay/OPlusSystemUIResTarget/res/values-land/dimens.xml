@@ -27,4 +27,7 @@
 
     <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
     <dimen name="config_rounded_mask_size">97px</dimen>
+
+    <!-- StatusBar burn-in protection -->
+    <dimen name="horizontal_max_shift">1px</dimen>
 </resources>
