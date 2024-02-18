@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Opiss Cam
+$(call inherit-product, vendor/oplus/camera/opluscamera.mk)
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/realme/bitra

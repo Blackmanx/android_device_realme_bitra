@@ -24,6 +24,12 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Build Type
+DERP_BUILDTYPE := Official
+
+# Opiss Cam
+TARGET_USES_OPLUS_CAMERA := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_bitra
 PRODUCT_DEVICE := bitra
