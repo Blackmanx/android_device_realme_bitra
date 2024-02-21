@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
 # Opiss Cam
 $(call inherit-product, vendor/oplus/camera/opluscamera.mk)
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/camera/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
+    $(LOCAL_PATH)/configs/camera/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/realme/bitra

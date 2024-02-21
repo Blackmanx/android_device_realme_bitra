@@ -55,8 +55,6 @@ odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/hi846
 odm/etc/camera/config/imx471
-odm/etc/camera/config/oplus_camera_aps_config
-odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/ov02b
 odm/etc/camera/config/s5kgw1
 odm/etc/camera/CameraHWConfiguration.config
