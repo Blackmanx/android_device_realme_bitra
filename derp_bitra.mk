@@ -28,6 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 DERP_BUILDTYPE := Official
 
 # Opiss Cam
+PRODUCT_NO_CAMERA := true
 TARGET_USES_OPLUS_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
