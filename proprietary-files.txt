@@ -121,7 +121,7 @@ vendor/firmware/image/opluseid.mdt
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw
+vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
 vendor/firmware/a650_zap.b00
 vendor/firmware/a650_zap.b01
 vendor/firmware/a650_zap.b02
