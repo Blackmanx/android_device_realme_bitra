@@ -27,6 +27,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Build Type
 DERP_BUILDTYPE := Official
 
+# UDFPS Icons
+EXTRA_UDFPS_ICONS := true
+
 # Opiss Cam
 PRODUCT_NO_CAMERA := true
 TARGET_USES_OPLUS_CAMERA := true
